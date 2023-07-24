@@ -1,0 +1,31 @@
+*{
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.light{
+  color:dark;
+
+}
+.dark{
+  color:aqua;
+}
+.border{
+  border:2px solid red;
+}
+@media(max-width:900px){
+  .myList{
+    position: fixed;
+    background-color: black;
+    top:52px;
+    bottom: 0;
+    left:0;
+    z-index: 5;
+  }  
+}
+.addPost{
+  position: fixed;
+  bottom: 22px;
+  left: 22px;
+
+}
